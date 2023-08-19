@@ -1,0 +1,116 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: 'Times New Roman', Times, serif;
+ background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+   color: #ba74cd: 
+  border-color:#ff9cef;
+}
+main{margin: 5%;}
+img{max-width:50%;
+     max-height:50%;
+    border-style: solid;
+     border-color: #ba74cd;}
+/* STYLE TEXT */
+header {background-color: #98e6c4;
+       padding: 1em;
+       margin: 0%;
+      text-align: center; }
+h1 { 
+  background-color: #98e6c4;
+  color: #5425ad; 
+  padding: 0emm;
+  text-align: center;
+  font-size: 75px;
+}
+p{ color: #625973;
+  padding: 1em;
+  text-align: center;
+  font-size: 35px;
+}
+h2 {
+  color: #625973;
+  padding: 1em;
+  text-align: center;
+  margin:1%;
+}
+h3 {
+  color: #625973;
+  padding: 1em;
+  text-align: center;
+}
+h4 {
+  color: #625973;
+    text-align: center;
+}
+img {
+  text-align: center;
+}
+
+#yes {border-radius: 5%;
+      width:100%;
+      height:auto
+    margin:1%;
+     align-items: center;
+     flex-wrap: wrap;}
+/* STYLE IMAGES - add border and margin around images below*/
+img{width: 100%;
+     height:100%; 
+    margin:10%;
+   }
+.cute {color: #f000d0}
+/* STYLE NAV BAR */ 
+nav{ background-colorr: #db42c6;}
+ul {list-style-type: none;
+   background-color: #f000d0;
+    overflow: hidden;
+    padding: 2em;
+    margin: 0%;
+   }
+li{display: inline-block;}
+li a {text-decoration: none;
+     color: white;
+     font-size: 1.5em;
+     padding: 1em;}
+li a:hover {background-color: #f495e4;}
+.pink {text-decoration: none;
+      background-color: #eaaee0;
+      text-align: center;
+     display:flex; /* Enable flexbox properties! This property defines the flexbox container */
+  flex-direction:row;
+  flex-wrap: nowrap; }
+
+
+
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* We need to define the width of our image. We want each image to fit the full width of the flex item container. 
+   Instead of using pixels, we will use a percentage so the images can adapt to the size of the screen. */
+
+/* This is the subtitle text under our images. */ 
+.subtitle {
+  text-align: center; /* We want this text to be in the center */
+}
+
+/* Create the flex container */
+.flex-container {
+  display:flex; 
+  justify-content: center;
+  flex-direction:row; 
+  flex-wrap: nowrap;
+}
+
+/* Style the flex items */
+.flex-item {
+  flex-basis: 100%; 
+  margin: 1%; 
+}
+@media screen and (max-width: 850px) {
+  .flex-container{ flex-wrap: wrap;
+ justify-content: center; }
+}
